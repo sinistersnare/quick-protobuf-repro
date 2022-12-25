@@ -1,0 +1,11 @@
+[package]
+name = "protobuf-repro"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+quick-protobuf = "0.8"
+
+[build-dependencies]
+pb-rs = "0.9"
+walkdir = "2"

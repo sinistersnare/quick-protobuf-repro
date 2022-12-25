@@ -1,0 +1,9 @@
+
+syntax = "proto2";
+
+import "imports/thing.proto";
+
+message o {
+    optional string name = 1;
+    optional pkg.Outer ack = 2;
+}

@@ -1,0 +1,13 @@
+
+syntax = "proto2";
+
+package pkg;
+
+message Outer {
+  message Inner {
+    optional Other other = 3;
+  }
+}
+
+message Other {
+}
